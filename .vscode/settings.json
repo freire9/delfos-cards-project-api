@@ -1,0 +1,5 @@
+{
+    "ruby.rubocop.executeOnSave": true,
+    "ruby.rubocop.onSave": "always"
+}
+  
