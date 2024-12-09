@@ -46,8 +46,8 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-gem "dotenv-rails", groups: [ :development, :test ]
+gem "dotenv-rails", groups: [ :development, :test ]\
 
 group :development do
-  gem "annotate"
+  gem "annotate", path: "./vendor/gems/annotate/"
 end
